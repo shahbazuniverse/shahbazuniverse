@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next { height: 100%; }
+
+body {
+  margin: 0;
+  background: url('/images/shahbaz-bg.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: -1;
+}
+
+.gold-gradient {
+  background: linear-gradient(90deg, #FFF4B0, #FFD700, #FFB300);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 8px rgba(255,215,0,0.5);
+}
+
+.nav-link { @apply text-white; }
+.nav-link:hover { @apply text-yellow-300; }

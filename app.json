@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "SHAHBAZ Univers",
+    "slug": "shahbaz-univers-expo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "../shahbaz-univers/public/images/shahbaz-bg.jpeg",
+    "splash": {
+      "image": "../shahbaz-univers/public/images/shahbaz-banner.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
